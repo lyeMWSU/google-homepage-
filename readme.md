@@ -1,0 +1,1 @@
+Project tutorial from The Odin Project, Web Development 101 course. Project HTML/CSS.
