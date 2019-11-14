@@ -12,13 +12,20 @@
 
 }
 
-.topnavleft li, .topnavright li{
+
+.topnavleft li, .topnavright li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #4f4f4f;
     display: inline-block;
     text-decoration: none;
     padding-right: 20px;
+
+}
+
+.topnavleft a, .topnavright a {
+    text-decoration: none;
+    color: #4f4f4f;
 
 }
 
@@ -73,10 +80,10 @@
 
 .center {
     display: block;
-    margin: auto;
-    width: 50%;
+    margin-top: 200px;
     background-color: white;
-    border: 2px solid black;
+    /* border: 1px solid black; */
+
 }
 
 .center img {
@@ -87,18 +94,103 @@
 
 .searchbar {
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 500px;
+    height: 38px;
+    border-radius: 200px;
+    border: 1px solid #dedede;
+}
+
+.searchbar:hover{
+    box-shadow: 1px 1px 1px 1px #eaeaea;
+
+}
+
+.searchbutton {
+    /* background-color: pink; */
     width: 50%;
+    margin: 35px auto auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.searchbutton button{
+    display: inline-block;
+    background-color: #f8f8f8;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    width: 140px;
+    height: 36px;
+
+
+
+}
+
+.searchbutton button:hover {
+    box-shadow: 1px 1px 1px 1px #eaeaea;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
 
 /* Footer */
 
 footer {
-    /* border: 1px solid black; */
-    background-color: gray;
+    border-top: 1px solid #d9d9d9;
+    background-color: #f2f2f2;
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+footer ul {
+    line-height: 40px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+
+footer li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #4f4f4f;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 20px;
+    margin: 0;
+
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+
+.leftfoot {
+    width: 50%;
+    float:left;
+    vertical-align: middle;
+    margin: 0;
+
+}
+
+.rightfoot {
+    width: 50%;
+    float:left;
+    vertical-align: middle;
+    text-align: right;
+    margin: 0;
 }
